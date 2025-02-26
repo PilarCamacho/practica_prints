@@ -88,7 +88,6 @@ body{
     /* background-color: aqua; */
     align-items: end;
 
-    font-size: 2rem;
 }
 
 .header-ul {
@@ -109,6 +108,7 @@ body{
 
 
 
+}
 @media (max-width:1440px) {
     .header-button {
         display: flex;
