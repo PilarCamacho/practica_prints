@@ -88,6 +88,7 @@ body{
     /* background-color: aqua; */
     align-items: end;
 
+    font-size: 1.5rem;
 }
 
 .header-ul {
@@ -107,6 +108,10 @@ body{
 }
 
 
+@media (max-width:1500px){
+    .header-nav{
+        font-size: 1rem;
+    }
 
 }
 @media (max-width:1440px) {
