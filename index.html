@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <picture>
+            <source srcset="assets/logo-light.png" media="(prefers-color-scheme:light)" type="image/png">
+            <source srcset="assets/logo.png" media="(prefers-color-scheme:dark)" type="image/png">
+            <img src="./assets/logo.png" alt="logo" class="header-logo">
+        </picture>
+        <nav class="header-nav">
+            <ul class="header-ul">
+                <li class="header-li--border"><a href="#" class="header-a"></a>All Prints</li>
+                <li class="header-li"><a href="#" class="header-a"></a>About Us</li>
+                <li class="header-li"><a href="#" class="header-a"></a>Contact</li>
+            </ul>
+        </nav>
+
+        <button class="header-button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-border-width" viewBox="0 0 16 16">
+                <path d="M0 3.5A.5.5 0 0 1 .5 3h15a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5zm0 5A.5.5 0 0 1 .5 8h15a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5"/>
+              </svg>
+        </button>
+
+    </header>
+
+    <main>
+
+        <section class="section">
+            <p class="section-texto">Check out some of the stuff we have worked on with and work spanning across several diferent mediums incluiding digital prints, company branding & more</p>
+
+            <div class="section-wrapper">
+                <container class="section-wrapper-container">
+                    <picture class="section-wrapper-container-picture">
+                        <source srcset="assets/print-port-1.jpg" type="image/jpeg">
+                        <img class="Prints" src="assets/print-port-1.jpg" alt="Print1">
+                    </picture>
+                    <picture class="section-wrapper-container-picture">
+                        <source srcset="assets/print-port-2.jpg" type="image/jpeg">
+                        <img class="Prints" src="./assets/print-port-2.jpg" alt="Print2">
+                    </picture>
+                    <picture class="section-wrapper-container-picture">
+                        <source srcset="assets/print-port-3.jpg" type="image/jpeg">
+                        <img class="Prints" src="./assets/print-port-3.jpg" alt="Print3">
+                    </picture>
+                    <picture class="section-wrapper-container-picture">
+                        <source srcset="assets/print-port-4.jpg" type="image/jpeg">
+                        <img class="Prints" src="./assets/print-port-4.jpg" alt="Print4">
+                    </picture>
+                </container>
+
+                <container class="section-wrapper-container">
+                    <picture class="section-wrapper-container-picture">
+                        <source srcset="assets/print-port-5-1.jpg" type="image/jpeg">
+                        <img class="Prints" src="./assets/print-port-5-1.jpg" alt="Print5">
+                    </picture>
+                    <picture class="section-wrapper-container-picture">
+                        <source srcset="assets/print-port-6.jpg" type="image/jpeg">
+                        <img class="Prints" src="./assets/print-port-6.jpg" alt="Print6">
+                    </picture>
+                    <picture class="section-wrapper-container-picture">
+                        <source srcset="assets/print-port-13.jpg" type="image/jpeg">
+                        <img class="Prints" src="./assets/print-port-13.jpg" alt="Print7">
+                    </picture>
+                    <picture class="section-wrapper-container-picture">
+                        <source srcset="assets/print-port-8.jpg" type="image/jpeg">
+                        <img class="Prints" src="./assets/print-port-8.jpg" alt="Print8">
+                    </picture>
+                </container>
+
+
+                <container class="section-wrapper-container">
+                    <picture class="section-wrapper-container-picture">
+                        <source srcset="assets/print-port-9.jpg" type="image/jpeg">
+                        <img class="Prints" src="./assets/print-port-9.jpg" alt="Print9">
+                    </picture>
+                    <picture class="section-wrapper-container-picture">
+                        <source srcset="assets/print-port-10.jpg" type="image/jpeg">
+                        <img class="Prints" src="./assets/print-port-10.jpg" alt="Print10">
+                    </picture>
+                    <picture class="section-wrapper-container-picture">
+                        <source srcset="assets/print-port-11.jpg" type="image/jpeg">
+                        <img class="Prints" src="./assets/print-port-11.jpg" alt="Print11">
+                    </picture>
+                    <picture class="section-wrapper-container-picture">
+                        <source srcset="assets/print-port-12.jpg" type="image/jpeg">
+                        <img class="Prints" src="./assets/print-port-12.jpg" alt="Print12">
+                    </picture>
+                </container>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+
+        <button class="footer-button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="footer-svg"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M2 13.5a.5.5 0 0 0 .5.5h6a.5.5 0 0 0 0-1H3.707L13.854 2.854a.5.5 0 0 0-.708-.708L3 12.293V7.5a.5.5 0 0 0-1 0z" />
+            </svg>
+            <span class="footer-span">Show More</span>
+        </button>
+
+        <div class="footer-info">
+            <p class="footer-text">All rights reserved Qode Interactive 2020</p>
+
+            <nav class="footer-nav">
+                <ul class="footer-ul">
+                    <li class="li"><a href="https://www.instagram.com/" class="a">Instagram</a></li>
+                    <li class="li"><a href="https://www.facebook.com/" class="a">Facebook</a></li>
+                    <li class="li"><a href="https://www.behance.net/" class="a">Behance</a></li>
+                    <li class="li"><a href="https://www.behance.net/" class="a">Pinterest</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        
+    </footer>
+
+</body>
+
+</html>
